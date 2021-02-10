@@ -1,0 +1,19 @@
+{
+  "name": "fctc",
+  "version": "0.1.0",
+  "description": "The official website of the Filament Coffee Track Club.",
+  "main": "index.js",
+  "repository": "https://github.com/cpdis/fctc",
+  "author": "Colin Dismuke <colin.dismuke@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.5",
+    "tailwindcss": "^2.0.3"
+  }
+}
