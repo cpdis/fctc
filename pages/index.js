@@ -38,7 +38,7 @@ export default function Home() {
       </Head>
       <main>
         <div className="justify-center align-middle animate-pulse">
-          <h1 className="text-9xl font-black uppercase text-center bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-orange-400 to-pink-400">
+          <h1 className="text-9xl font-black uppercase text-center transition duration-500 ease-in-out bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-orange-400 to-pink-400 transform hover:bg-gradient-to-l hover:from-pink-400 hover:via-orange-400 hover:to-green-400">
             Filament Coffee Track Club
           </h1>
         </div>
