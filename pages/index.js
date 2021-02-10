@@ -37,8 +37,8 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <main>
-        <div className="justify-center align-middle">
-          <h1 className="text-9xl font-black uppercase text-center bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-orange-400 to-pink-400 selection:bg-orange-400">
+        <div className="justify-center align-middle animate-pulse">
+          <h1 className="text-9xl font-black uppercase text-center bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-orange-400 to-pink-400">
             Filament Coffee Track Club
           </h1>
         </div>
