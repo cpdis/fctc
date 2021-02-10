@@ -37,10 +37,12 @@ export default function Home() {
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <main>
-        <div className="justify-center align-middle animate-pulse">
-          <h1 className="text-5xl md:text-7xl lg:text-9xl font-black uppercase text-center transition duration-500 ease-in-out bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-orange-400 to-pink-400 transform hover:bg-gradient-to-l hover:from-pink-400 hover:via-orange-400 hover:to-green-400">
-            Filament Coffee Track Club
-          </h1>
+        <div className="max-h-screen">
+          <div className="justify-center align-middle animate-pulse">
+            <h1 className="text-5xl md:text-7xl lg:text-9xl font-black uppercase text-center transition duration-500 ease-in-out bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-orange-400 to-pink-400 transform hover:bg-gradient-to-l hover:from-pink-400 hover:via-orange-400 hover:to-green-400">
+              Filament Coffee Track Club
+            </h1>
+          </div>
         </div>
       </main>
     </div>
