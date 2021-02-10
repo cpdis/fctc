@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Filament Coffee Track Club</title>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Colin Dismuke" />
         <meta
@@ -33,6 +33,13 @@ export default function Home() {
         <link href="style.css" rel="stylesheet" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </Head>
+      <main>
+        <div className="justify-center align-middle">
+          <h1 className="text-9xl font-black uppercase text-center bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-orange-400 to-pink-400 selection:bg-orange-400">
+            Filament Coffee Track Club
+          </h1>
+        </div>
+      </main>
     </div>
   );
 }
